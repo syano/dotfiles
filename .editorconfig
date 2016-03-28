@@ -1,0 +1,33 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+#上位階層の.editorconfigを参照しない
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+#文字コード:utf-8
+charset = utf-8
+#改行コード:LF
+end_of_line = lf
+#行末の空白文字を削除
+trim_trailing_whitespace = false
+#ファイル末尾が改行コードでない場合は挿入
+insert_final_newline = true
+#インデント:space
+indent_style = space
+
+[*.{html,php,py}]
+#インデント:space-4
+indent_size = 4
+
+[*.{sass,js,json,coffee,ruby}]
+#インデント:space-2
+indent_size = 2
+
+[{package.json,.travis.yml}]
+#インデント:space-2
+indent_size = 2
+
+[Makefile]
+#インデント:tab
+indent_style = tab
