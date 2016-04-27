@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOT_FILES=(.bash_profile .bash_rc)
+DOT_FILES=(.bash_profile .bashrc)
 
 for file in ${DOT_FILES[@]}
 do
