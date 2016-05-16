@@ -13,7 +13,6 @@
     "no-comma-dangle" : 0
   },
   "globals": [
-    "$",
     "PIXI"
   ]
 }
