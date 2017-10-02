@@ -53,3 +53,11 @@ GIT_PS1_SHOWSTASHSTATE=1
 # https://github.com/hokaccha/nodebrew
 ########################################
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+export PATH=$HOME/woff2/woff2_compress:$PATH
+export PATH=$HOME/woff2/woff2_decompress:$PATH
+
+########################################
+# homebrewでインストールしたphp7へPATHを通す
+########################################
+export PATH="$(brew --prefix php70)/bin:$PATH"
